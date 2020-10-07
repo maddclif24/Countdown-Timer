@@ -1,0 +1,23 @@
+{
+  "name": "countdowntimer",
+  "version": "1.0.0",
+  "description": "Countdown to new year.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maddclif24/Countdown-Timer.git"
+  },
+  "author": "maddclif",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maddclif24/Countdown-Timer/issues"
+  },
+  "homepage": "https://github.com/maddclif24/Countdown-Timer#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "file-system": "^2.2.2"
+  }
+}
