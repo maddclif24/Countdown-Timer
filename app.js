@@ -1,7 +1,7 @@
-import Express from 'express';
-const app = new Express();
+const express = require('express')
+const app = express();
 
-app.get('/', (req, res) => {
+app.get('/countdown', (req, res) => {
     app.use(express.static('public'));
     res.send('./public/index.html');
 });
